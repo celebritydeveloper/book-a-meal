@@ -133,3 +133,86 @@ img {
         width: 30px;
     }
 }
+
+
+
+// Home Navigation Styles
+
+
+.home-header {
+    background: url('../img/home-bg.jpg');
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+
+
+.home__navigation {
+    display: grid;
+    grid-template-columns: 300px 600px 300px;
+    padding: 20px 120px 0 120px;
+}
+
+.home--logo {
+    height: auto;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.home__navigation__menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 22px;
+}
+
+.home__navigation__menu a{
+    color: rgb(99, 99, 99);
+}
+
+.home__navigation__action {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.home__navigation__menu li, .home__navigation__action li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.home__navigation__menu li a, .home__navigation__action li a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.home__action--signup {
+    background: rgb(245, 91, 20);
+    border: 1px solid rgb(245, 91, 20);
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px rgb(245, 130, 77);
+    display: inline-block;
+    padding: 10px 12px;
+}
+
+.home__action--signup a {
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+.home__action--login {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px rgb(206, 205, 205);
+    display: inline-block;
+    padding: 10px 12px;
+}
+
+.home__action--login a {
+    color: rgb(245, 91, 20);
+    font-weight: 550;
+    text-transform: uppercase;
+}

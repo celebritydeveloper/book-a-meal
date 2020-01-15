@@ -131,4 +131,85 @@ img {
   margin-top: 20px;
   width: 30px;
 }
+
+.home-header {
+  background: url("../img/home-bg.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+}
+
+.home__navigation {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 600px 300px;
+      grid-template-columns: 300px 600px 300px;
+  padding: 20px 120px 0 120px;
+}
+
+.home--logo {
+  height: auto;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.home__navigation__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 22px;
+}
+
+.home__navigation__menu a {
+  color: #636363;
+}
+
+.home__navigation__action {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.home__navigation__menu li, .home__navigation__action li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.home__navigation__menu li a, .home__navigation__action li a {
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.home__action--signup {
+  background: #f55b14;
+  border: 1px solid #f55b14;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 2px 3px #f5824d;
+          box-shadow: 1px 2px 3px #f5824d;
+  display: inline-block;
+  padding: 10px 12px;
+}
+
+.home__action--signup a {
+  color: white;
+  font-weight: 550;
+  text-transform: uppercase;
+}
+
+.home__action--login {
+  background: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 2px 3px #cecdcd;
+          box-shadow: 1px 2px 3px #cecdcd;
+  display: inline-block;
+  padding: 10px 12px;
+}
+
+.home__action--login a {
+  color: #f55b14;
+  font-weight: 550;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=style.css.map */
