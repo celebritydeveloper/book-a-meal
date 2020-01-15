@@ -393,4 +393,88 @@ img {
   line-height: 1.6;
   padding: 0 80px;
 }
+
+.explore {
+  margin: 120px auto 50px auto;
+  width: 80%;
+}
+
+.explore__cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(260px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+  row-gap: 30px;
+}
+
+.explore__card {
+  background: white;
+  -webkit-box-shadow: 1px 1px 3px #d8d6d6;
+          box-shadow: 1px 1px 3px #d8d6d6;
+  border-radius: 14px;
+}
+
+.explore__card__body {
+  background: white;
+  -webkit-box-shadow: 1px 1px 3px #d8d6d6;
+          box-shadow: 1px 1px 3px #d8d6d6;
+  height: 400px;
+}
+
+.explore__header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.explore__header--title {
+  color: #0C3653;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.explore__header--desc {
+  color: #AEB2B4;
+  padding: 0 200px;
+  margin-bottom: 0;
+}
+
+.explore__card--food {
+  color: #0C3653;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  padding: 0 14px;
+}
+
+.explore__card--price {
+  color: #F98169;
+  margin-left: 120px;
+}
+
+.explore__card--desc {
+  padding: 0 14px 5px 14px;
+}
+
+.explore__action {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.explore--btn {
+  background: #F98169;
+  -webkit-box-shadow: 0 8px 25px #F98169;
+          box-shadow: 0 8px 25px #F98169;
+  color: white;
+  display: inline-block;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding: 12px 20px;
+  text-decoration: none;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
