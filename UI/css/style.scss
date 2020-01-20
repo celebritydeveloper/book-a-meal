@@ -581,3 +581,346 @@ img {
     margin-top: 58px;
 }
 
+
+
+// Order Page Styling
+
+.order-page {
+    display: grid;
+    grid-template-columns: 8% 92%;
+    height: 100vh;
+    
+}
+
+.order-menu {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 20px 20px rgba(242, 243, 247, 0.8);
+    
+}
+
+.order-menu__list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.order-menu--link {
+    //background: #F98169;
+    border-radius: 8px;
+    //box-shadow: 0 8px 25px #F98169;
+    color: #9b9c9c;
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 25px;
+    padding: 8px 10px;
+    text-align: center;
+    width: 65px;
+}
+
+.order-menu--link:hover {
+    background: #F98169;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px #F98169;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-bottom: 25px;
+    padding: 8px 10px;
+    text-align: center;
+    width: 65px;
+}
+
+.order-menu--link--active {
+    background: #F98169;
+    box-shadow: 0 8px 25px #F98169;
+    color: rgb(255, 255, 255);
+}
+
+.order-menu--link--active i{
+    color: rgb(255, 255, 255);
+}
+
+.order-menu--link i{
+    color: #9b9c9c;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.order-menu--link:hover i{
+    color: rgb(255, 255, 255);
+    //margin-bottom: 5px;
+}
+
+.order-main {
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin-top: 30px;
+}
+
+.order-main__menu {
+    background: #F98169;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 400px;
+}
+
+.order-main__sub--menu {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.order-main__menu--link {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    padding: 12px 10px;
+    text-align: center;
+    width: 80px;
+}
+
+.order-main__menu--link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.order-main__menu--link i {
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-bottom: 8px;
+}
+
+.order-main__body {
+    padding: 0  20px;
+}
+
+.order-header {
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 0 8px 25px rgb(233, 232, 232);
+    display: flex;
+    padding: 5px 24px;
+}
+
+.order__company--title {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 4px;
+}
+
+.order__company--desc {
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.order-header__form {
+    margin-left: 100px;
+    margin-top:5px;
+}
+
+.order-header--button {
+    background: none;
+    border: none;
+    color: rgb(157, 157, 158);
+    font-size: 18px;
+    margin-right: 12px;
+    outline: none;
+}
+
+.order-header--search {
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+    padding: 6px 10px;
+}
+
+.order-header__profile {
+    align-items: center;
+    justify-self: end;
+    background: #F98169;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    height: 45px;
+    justify-items: center;
+    margin-left: 190px;
+    margin-right: 15px;
+    padding: 0 12px;
+}
+
+.order__profile {
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 4px;
+    width: 35px;
+}
+
+.order__profile--img {
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+}
+
+.order__profile--name {
+    color: rgb(255, 255, 255);
+}
+
+.order-header__settings {
+    align-items: center;
+    color: rgb(157, 157, 158);;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.order-main__content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    //margin-bottom: 50px;
+}
+
+.order-main__menu-header {
+    display: flex;
+}
+
+.order-main__menu-title {
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+.order-main__menu-title--cat {
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.order-main__menu-title--menu {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.order-main__menu-title--divider {
+    align-self: center;
+    display: flex;
+    margin-right: 40px;
+}
+
+.order-main__cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+    margin-right: 10px;
+}
+
+.order-main__card {
+    background: linear-gradient(to bottom, rgba(180, 180, 180, 0.5), rgba(180, 180, 180, 0.5)), url('../img/order-card-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    height: 220px;
+    padding: 15px 15px 0 15px;
+}
+
+.order-main__card--price {
+    background: #F98169;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+}
+
+.order-main__card--food {
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 0;
+    padding: 8px 12px;
+}
+
+.order-main__order-list {
+
+}
+
+.order-list__nav {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.order-list__nav--link {
+    font-size: 14px;
+}
+
+.order-list__nav--link--active {
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    color: #F98169;
+    padding: 7px 8px;
+}
+
+.order-list__table__header {
+    background: #F98169;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.order-list__table__header {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px 12px;
+}
+
+.order-list__table__title {
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.order-list__table__desc {
+    font-size: 13px;
+    margin: 0;
+}
+
+.order-main__items {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 18px 0;
+}
+
+
+.order-main__item__input input{
+    width: 50px;
+}
+
+.order-main__item__name {
+    
+}
+
+.order-main__item__food {
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.order-main__item__single {
+    font-size: 12px;
+    margin: 0;
+}
